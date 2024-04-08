@@ -13,8 +13,9 @@ body{
 #container{
     margin: 0 auto;
     border: 1px solid red;
-    min-height: 740px;
+    min-height: auto;
     max-width: 1180px;
+    background: url(../img/bg-container.png) top center repeat-y;
 }
 
 #topo{
@@ -115,8 +116,61 @@ ul#navegacao a:hover{
 
 /*Fim do topo*/
 
-/*Inicío do corpo (divulgação)*/
-/*Fim do corpo (divulgação)*/
+/*Inicío do corpo (area principal)*/
 
-/*Inicío do corpo (serviços)*/
-/*Fim do corpo (serviços)*/
+#area-principal{
+    float: left;
+    width: 50%;
+    background: url(../img/bg-area-principal.png) top center repeat-x;
+    padding: 20px 0px;
+}
+
+.conteudo{
+    width: 90%;
+    margin: 0px auto;
+}
+.historia{
+    padding-bottom: 5px;
+}
+
+/*Fim do corpo (area principal)*/
+
+/*Inicío do corpo (area lateral)*/
+
+#area-lateral{
+    width: 50%;
+    float: right;
+    background: url(../img/bg-area-lateral.png) top center repeat-x;
+    padding: 20px 0px;
+}
+
+.conteudo img{
+    width: 25%;
+    float: left;
+    margin: 5px;
+}
+
+h3{
+    padding-top: 10px;
+}
+.especial{
+    padding-top: 7px;
+}
+
+.conteudo li{
+    padding-bottom: 30px;
+}
+
+.conteudo a:hover{
+    background: #fff;
+}
+
+.beneficios li a p{
+    background: #fff;
+}
+
+/*Fim do corpo (area lateral)*/
+
+#rodape{
+    clear: both;
+}
