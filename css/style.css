@@ -12,7 +12,7 @@ body{
 
 #container{
     margin: 0 auto;
-    border: 1px solid red;
+    
     min-height: auto;
     max-width: 1180px;
     background: url(../img/bg-container.png) top center repeat-y;
@@ -149,28 +149,39 @@ ul#navegacao a:hover{
     float: left;
     margin: 5px;
 }
+h2{
+    color: #615b2d;
+}
 
 h3{
     padding-top: 10px;
+    color: #615b2d;
 }
 .especial{
     padding-top: 7px;
+    color: #000;
 }
 
 .conteudo li{
     padding-bottom: 30px;
 }
 
-.conteudo a:hover{
-    background: #fff;
+#beneficios li{
+    background: url(../img/ornamento.png) no-repeat right top;
 }
-
-.beneficios li a p{
-    background: #fff;
+#beneficios li:hover{
+    background: #f6f3d6;
+    cursor: pointer;
 }
 
 /*Fim do corpo (area lateral)*/
 
+/*Início do rodapé*/
+
 #rodape{
     clear: both;
+    background: #dbd4d4e1;
+    color: rgb(62, 59, 59);
 }
+
+/*Fim do rodapé*/
